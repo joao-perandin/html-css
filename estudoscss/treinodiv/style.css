@@ -1,0 +1,12 @@
+div {
+    display: inline-block; /* Essencial para centralizar divs */
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover { /* Efeito de hover, isso é uma subclasse, representada pelo marcador : */
+    background-color: lightblue;
+}
