@@ -8,7 +8,7 @@ body {
 }
 main {
     margin: auto;
-    max-width: 800px;
+    max-width: 700px;
     min-width: 300px;
 }
 header {
@@ -42,23 +42,42 @@ header p {
     font-weight: 400;
 }
 
-main p {
+main pre {
+    font-size: 1.2em;
     font-family: 'Sriracha', cursive;
+    text-shadow: rgba(0, 0, 0, 0.51) 1px 2px 5px
 }
 
-.segunda-estrofe img {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+.segunda-estrofe {
+    background-image: url('imagens/background001.jpg');
+    background-position: center right;
     background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
 }
 
-.segunda-estrofe p {
+.segunda-estrofe pre {
     position: absolute;
     color: white;
-    top: 35%;
-    background-color: rgba(0, 0, 0, 0.384);
-    max-width: 190px;
-    min-width: 50px;
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 20px 20px 20px 0px;
+    top: 8%;
+}
+
+.quinta-estrofe {
+    background-image: url('imagens/background002.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+}
+
+.quinta-estrofe pre {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 20px 20px 20px 0px;
+    top: 8%;
 }
