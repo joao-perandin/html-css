@@ -6,11 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
-main {
-    margin: auto;
-    max-width: 700px;
-    min-width: 300px;
-}
+
 header {
     width: 100%;
     background-color: black;
@@ -26,16 +22,17 @@ header h1 {
     margin: 0;
 }
 
-header h1 a {
-    text-decoration: none;
+header a, footer a {
     color: white;
+    text-decoration: none;
 }
 
-header h1 a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-header p {
+main header p {
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-top: 10px;
     padding-bottom: 40px;
@@ -48,3 +45,34 @@ main p {
     text-shadow: rgba(0, 0, 0, 0.51) 1px 2px 5px
 }
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer > p {
+    margin: 0px;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2.5em;
+    padding-left: 30px;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: darkgray;
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 260px;
+}
